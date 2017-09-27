@@ -1,0 +1,11 @@
+kind: Template
+parameters:
+- name: APISERVER_HOSTPORT
+- name: NODE_IP
+- name: EXPOSER
+- name: DOMAIN
+- name: GITHUB_OAUTH_CLIENT_SECRET
+- name: GITHUB_OAUTH_CLIENT_ID
+- name: HTTP
+- name: TLS_ACME
+- name: RECOMMENDER_API_TOKEN

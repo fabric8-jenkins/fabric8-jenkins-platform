@@ -1,0 +1,8 @@
+kind: Template
+parameters:
+- name: PROJECT_NAMESPACE
+- name: CLIENT_ID
+- name: CLIENT_SECRET
+- name: RECOMMENDER_EXTERNAL_NAME
+- name: RECOMMENDER_API_TOKEN
+- name: KEYCLOAK_URL
