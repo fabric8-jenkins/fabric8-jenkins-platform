@@ -13,7 +13,7 @@ def release(project){
     helmPush = false
     groupId = 'io.fabric8.jenkins'
     githubOrganisation = 'fabric8-jenkins'
-    artifactIdToWatchInCentral = 'distro'
+    artifactIdToWatchInCentral = 'parent'
     artifactExtensionToWatchInCentral = 'pom'
     promoteToDockerRegistry = 'docker.io'
     dockerOrganisation = 'fabric8'
