@@ -42,9 +42,29 @@
       <version>${keycloak-app.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.fabric8.jenkins.packages</groupId>
-      <artifactId>fabric8-jenkins</artifactId>
-      <version>${project.version}</version>
+      <groupId>io.fabric8.apps</groupId>
+      <artifactId>exposecontroller-app</artifactId>
+      <version>${exposecontroller.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.fabric8.devops.apps</groupId>
+      <artifactId>configmapcontroller</artifactId>
+      <version>${fabric8-devops.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.fabric8.devops.apps</groupId>
+      <artifactId>fabric8-docker-registry</artifactId>
+      <version>${fabric8-devops.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.fabric8.tenant.apps</groupId>
+      <artifactId>jenkins</artifactId>
+      <version>${jenkins-tenant.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.fabric8.apps</groupId>
+      <artifactId>nexus-app</artifactId>
+      <version>${nexus-app.version}</version>
     </dependency>
   </dependencies>
 
