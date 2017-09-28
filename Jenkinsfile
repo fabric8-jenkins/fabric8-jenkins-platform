@@ -7,9 +7,9 @@ releaseNode {
     readTrusted 'release.groovy'
 
     if (utils.isCI()) {
-
-      sh 'mvn clean install'
-
+      container('maven'){
+        sh 'mvn clean install'
+      }
     } else if (utils.isCD()) {
       sh "git remote set-url origin git@github.com:fabric8-jenkins/fabric8-jenkins-platform.git"
 
