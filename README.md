@@ -35,11 +35,11 @@ source ~/.zshrc
 ### No auth
 If you want to get going quickly with auth disabled in Jenkins then this command will download minikube, install drivers and deploy fabric8 jenkins:
 ```
-gofabric8 start --namespace fabric8 --package=jenkins --legacy=false
+gofabric8 start --namespace fabric8 --package=jenkins
 ```
 If you're already connected to a Kubernetes or OpenShift cluster then run:
 ```
-gofabric8 deploy --namespace fabric8 --package=jenkins --legacy=false
+gofabric8 deploy --namespace fabric8 --package=jenkins
 ```
 ### Single Sign On
 If you want Single Sign On (provided by Keycloak) then we currently support GitHub oauth (more to follow) out of the box.  This first requires a manual setup of an [OAuth application to be setup on your github account](https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/registering-oauth-apps/)
@@ -61,7 +61,7 @@ export GITHUB_OAUTH_CLIENT_SECRET=123abc
 ```
 Now deploy:
 ```
-gofabric8 deploy --namespace fabric8 --package=jenkins-sso --legacy=false
+gofabric8 deploy --namespace fabric8 --package=jenkins-sso
 ```
 
 # FAQ

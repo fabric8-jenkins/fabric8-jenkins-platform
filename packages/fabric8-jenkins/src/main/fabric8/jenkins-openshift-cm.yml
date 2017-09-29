@@ -313,6 +313,22 @@ data:
       <slaveAgentPort>${JNLP_PORT}</slaveAgentPort>
       <label>master</label>
       <nodeProperties/>
-      <globalNodeProperties/>
+      <globalNodeProperties>
+        <hudson.slaves.EnvironmentVariablesNodeProperty>
+          <envVars serialization="custom">
+            <unserializable-parents/>
+            <tree-map>
+              <default>
+                <comparator class="hudson.util.CaseInsensitiveComparator"/>
+              </default>
+              <int>2</int>
+              <string>HUBOT_DEFAULT_ROOM</string>
+              <string>fabric8-chatops</string>
+              <string>HUBOT_URL</string>
+              <string>http://hubot</string>
+            </tree-map>
+          </envVars>
+        </hudson.slaves.EnvironmentVariablesNodeProperty>
+      </globalNodeProperties>
       <noUsageStatistics>true</noUsageStatistics>
     </hudson>
