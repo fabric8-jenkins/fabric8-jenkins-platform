@@ -75,7 +75,7 @@
     <exposecontroller.version>3.0.7</exposecontroller.version>
     <fabric8-docker-registry.version>1.0.1</fabric8-docker-registry.version>
     <fabric8-devops.version>2.2.335</fabric8-devops.version>
-    <jenkins-tenant.version>4.0.20</jenkins-tenant.version>
+    <jenkins-tenant.version>4.0.24</jenkins-tenant.version>
     <keycloak-app.version>1.0.2</keycloak-app.version>
     <mattermost.version>vad68f0d</mattermost.version>
     <nexus-app.version>1.0.1</nexus-app.version>
